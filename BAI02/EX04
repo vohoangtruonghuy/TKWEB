@@ -1,0 +1,72 @@
+body{
+  font:Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:white;
+}
+
+/* Header **/
+header{
+  background:steelblue;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:aqua 3px solid;
+}
+
+header a{/**phần thông tin và dịch vụ**/
+text-decoration: none;
+}
+
+header li{/*cả 3 phần*/
+  display: inline;
+  padding-right: 24px;
+}
+
+header #branding{/*phần chữ ngọc minh wed design*/
+background-color: steelblue;
+height: 20px;
+}
+
+header #branding h1{
+  background-color:steelblue;
+  
+
+}
+
+header nav{
+ position: initial;
+ transform: translateX(0);
+ opacity: 1;
+ justify-content:flex-end;
+ align-items: center;
+ display: flex;
+ font-size: 20px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .highlight, header .current a{
+  color: orangered;
+
+}
+
+header a:hover{
+  color:orangered;
+
+}
+
+
+footer{
+  margin-top:20px;
+  padding:30px;
+  margin:0px;
+  background-color:darkolivegreen;
+  text-align: center;
+  color: aliceblue;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 2000px;
+    max-width: 100%;
+  }
+
