@@ -1,0 +1,72 @@
+body{
+    font:Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:white;
+}
+
+/* Global */
+.container{
+ font-size: 20px;
+  padding-left: 150px;
+}
+
+ul{
+ color: black;
+}
+
+/* Header **/
+header{
+    background:steelblue;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:aqua 3px solid;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+    padding-right: 24px;
+}
+
+header #branding{
+    background-color: steelblue;
+    height: 20px;
+}
+
+header #branding h1{
+    background-color:steelblue;
+    padding-top: 35px;
+}
+
+header nav{
+    position: initial;
+    transform: translateX(0);
+    opacity: 1;
+    justify-content:flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+}
+
+header a:hover{
+    color:orangered;
+}
+
+footer{
+    margin-top:20px;
+    padding:30px;
+    margin:0px;
+    background-color:darkolivegreen;
+    text-align: center;
+    color: aliceblue;
+}
