@@ -1,0 +1,94 @@
+body{
+    font:Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:white;
+}
+
+/* Global */
+.container{
+    font-size: 20px;
+    padding: 1px 20px 0 100px;
+}
+
+ul{
+    color: #000;
+}
+
+/* Header **/
+header{
+    background:steelblue;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:aqua 3px solid;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+    padding-right: 24px
+}
+
+header #branding{
+    background-color: steelblue;
+    height: 20px;
+}
+
+header #branding h1{
+    background-color:steelblue;
+    padding-top: 35px;
+}
+
+header nav{
+    position: initial;
+    transform: translateX(0);
+    opacity: 1;
+    justify-content:flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 35px;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+}
+
+header a:hover{
+    color:orangered;
+}
+
+/* Showcase */
+#showcase{
+  background-image: url(https://get.pxhere.com/photo/laptop-computer-macbook-apple-working-light-black-and-white-technology-white-photography-dark-darkness-black-monochrome-bed-photograph-image-screenshot-monochrome-photography-computer-wallpaper-972638.jpg);
+  background-size: 1600px 500px;
+  background-repeat:no-repeat;
+}
+
+#showcase h1{
+  text-align: center;
+  font-size: 60px;
+  color: rgb(238, 227, 227);
+  padding-top: 100px;
+}
+
+#showcase p{
+  text-align: center;
+  color: #f3f3f7;
+  font-size: 30px;
+  padding-bottom: 200px;
+}
+
+footer{
+    margin-top:20px;
+    padding:30px;
+    margin:0px;
+    background-color:darkolivegreen;
+    text-align: center;
+    color: aliceblue;
+}
