@@ -1,0 +1,202 @@
+body{
+    font:Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:white;
+  }
+  
+  /* Global */
+  .container{
+    width:80%;
+ margin: auto;
+ overflow: hidden;
+  }
+  
+  ul{
+    color: #000;
+  }
+  
+  .button_1{
+  background-color: darkorange;
+  height: 38px;
+  border: 0;
+padding-left: 20px;
+padding-right: 20px;
+  }
+  
+  .dark{
+  background-color: rgb(230, 197, 12);
+  color: rgb(223, 12, 12);
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+  }
+  
+  /* Header **/
+  header{
+    background:steelblue;
+    color:white;
+    padding-top:30px;
+min-height:70px;
+border-bottom: rgb(2, 107, 19) 3px solid;
+  }
+  
+  header a{
+    text-decoration: none;
+  }
+  
+  header li{
+    display: inline;
+    padding-right: 24px
+  }
+  
+  header #branding{
+    background-color: steelblue;
+    height: 20px;
+  }
+  
+  header #branding h1{
+    background-color:steelblue;
+    padding-top: 35px;
+  }
+  
+  header nav{
+    position: initial;
+    transform: translateX(0);
+    opacity: 1;
+    justify-content:flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 35px;
+  }
+  
+  header .highlight, header .current a{
+    color: orangered;
+  }
+  
+  header a:hover{
+    color:orangered;
+  }
+  
+  /* Showcase */
+  #showcase{
+    background-image: url(https://get.pxhere.com/photo/laptop-computer-macbook-apple-working-light-black-and-white-technology-white-photography-dark-darkness-black-monochrome-bed-photograph-image-screenshot-monochrome-photography-computer-wallpaper-972638.jpg);
+    background-size: 1600px 600px;
+    background-repeat:no-repeat;
+    text-align: center;
+    min-height: 400px
+  }
+  
+  #showcase h1{
+    font-size: 60px;
+    color: rgb(238, 227, 227);
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #showcase p{
+    text-align: center;
+    color: #f3f3f7;
+    font-size: 20px;
+  
+  }
+  
+  /* Newsletter */
+  #newsletter{
+  background-color: rgba(202, 118, 21, 0.452);
+  padding: 15px;
+  color: red;
+  }
+  
+  #newsletter h1{
+    float: left;
+  }
+  
+  #newsletter form {
+    float: right;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  /* Boxes */
+  #boxes{
+    padding: 70px 0px 50px 0px;
+    text-align: center;
+  }
+  
+  #boxes .box{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+  }
+  
+  #boxes .box img{
+  height: 135px;
+  }
+  
+  /* Sidebar */
+  aside#sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 30px 0px 0px 30px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 75%;
+    padding: 5px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float: left;
+    width: 65%;
+  }
+  
+/* Services */
+ul#services li{
+list-style: none;
+padding: 15px;
+border: rgb(133, 199, 168) solid 1px;
+margin-bottom: 5px;
+background: rgb(141, 214, 165);
+}
+
+footer{
+    margin-top:20px;
+    padding:30px;
+    background-color:darkolivegreen;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+
+    header #branding{
+      text-align: center;
+      margin: 0px 0px 40px 10px;
+    }
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      text-align: center;
+      width: 100%;
+    }
+  
+    header{
+      padding-bottom: 20px;
+    }
+  
+  }
+  
