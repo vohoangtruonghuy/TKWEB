@@ -1,103 +1,103 @@
 body{
-    font:Arial, Helvetica,sans-serif;
-    padding:0;
-    margin:0;
-    background-color:white;
+  font:Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:white;
 }
 
 /* Global */
 .container{
-    font-size: 20px;
-    padding: 1px 20px 1px 100px;
+  font-size: 20px;
+  padding: 1px 20px 1px 100px;
 }
 
 ul{
-    color: #000;
+  color: #000;
 }
 
 .button_1{
-  background-color: darkorange;
-  padding: 10px 30px 10px 10px;
+background-color: darkorange;
+padding: 10px 30px 10px 10px;
 }
 
 .dark{
-  background-color: rgb(230, 197, 12);
-  color: rgb(223, 12, 12);
-  padding: 10px 0px 10px 30px;
+background-color: rgb(230, 197, 12);
+color: rgb(223, 12, 12);
+padding: 10px 0px 10px 30px;
 }
 
 /* Header **/
 header{
-    background:steelblue;
-    color:white;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:aqua 3px solid;
+  background:steelblue;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:aqua 3px solid;
 }
 
 header a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header li{
-    display: inline;
-    padding-right: 24px
+  display: inline;
+  padding-right: 24px
 }
 
 header #branding{
-    background-color: steelblue;
-    height: 20px;
+  background-color: steelblue;
+  height: 20px;
 }
 
 header #branding h1{
-    background-color:steelblue;
-    padding-top: 35px;
+  background-color:steelblue;
+  padding-top: 35px;
 }
 
 header nav{
-    position: initial;
-    transform: translateX(0);
-    opacity: 1;
-    justify-content:flex-end;
-    align-items: center;
-    display: flex;
-    font-size: 25px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 35px;
+  position: initial;
+  transform: translateX(0);
+  opacity: 1;
+  justify-content:flex-end;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 35px;
 }
 
 header .highlight, header .current a{
-    color: orangered;
+  color: orangered;
 }
 
 header a:hover{
-    color:orangered;
+  color:orangered;
 }
 
 /* Showcase */
 #showcase{
-    background-image: url(https://get.pxhere.com/photo/laptop-computer-macbook-apple-working-light-black-and-white-technology-white-photography-dark-darkness-black-monochrome-bed-photograph-image-screenshot-monochrome-photography-computer-wallpaper-972638.jpg);
-    background-size: 1600px 600px;
-    background-repeat:no-repeat;
+  background-image: url(https://get.pxhere.com/photo/laptop-computer-macbook-apple-working-light-black-and-white-technology-white-photography-dark-darkness-black-monochrome-bed-photograph-image-screenshot-monochrome-photography-computer-wallpaper-972638.jpg);
+  background-size: 1600px 600px;
+  background-repeat:no-repeat;
 }
 
 #showcase h1{
-    text-align: center;
-    font-size: 60px;
-    color: rgb(238, 227, 227);
-    padding-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(238, 227, 227);
+  padding-top: 100px;
 }
 
 #showcase p{
-    text-align: center;
-    color: #f3f3f7;
-    font-size: 30px;
-    padding-bottom: 200px;
+  text-align: center;
+  color: #f3f3f7;
+  font-size: 30px;
+  padding-bottom: 200px;
 }
 
 /* Newsletter */
 #newsletter{
-  background-color: rgba(202, 118, 21, 0.452);
+background-color: rgba(202, 118, 21, 0.452);
 }
 
 #newsletter h1{
@@ -107,8 +107,8 @@ transform: translate(10px,17px);
 }
 
 #newsletter form {
-  text-align: right;
-  transform: translate(-250px,-40px);
+text-align: right;
+transform: translate(-250px,-40px);
 }
 
 #newsletter input[type="email"]{
@@ -117,43 +117,44 @@ padding: 10px 83px 10px 10px;
 
 /* Boxes */
 #boxes{
-    padding: 70px 0px 50px 0px;
-    text-align: center;
+  padding: 70px 0px 50px 0px;
+  text-align: center;
 }
 
 #boxes .box{
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
 }
 
 #boxes .box img{
-  height: 135px;
+height: 135px;
 }
 
 /* Sidebar */
 aside#sidebar{
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin: -500px 0px 0px 855px;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin: 30px 0px 0px 30px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
-  
+  width: 90%;
+  padding: 5px;
 }
 
 /* Main-col */
 article#main-col{
-  padding: 0px 700px 0px 0px;
+  float: left;
+  width: 65%;
 }
 
 footer{
-    margin-top:20px;
-    padding:30px;
-    margin:0px;
-    background-color:darkolivegreen;
-    text-align: center;
-    color: aliceblue;
+  margin-top:20px;
+  padding:30px;
+  margin:160px 0px 0px 0px;
+  background-color:darkolivegreen;
+  text-align: center;
+  color: aliceblue;
 }
-
